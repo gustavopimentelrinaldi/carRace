@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+
+    <head>
+        <title>Corrida de Carros 2.0</title>
+        
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/styles.css">
+        
+    </head>
+    
+    <body id="race">
+        <h1>Corrida de Carros 2.0</h1>
+        
+        <input type="button" value="Iniciar!" id="go">
+        <input type="button" value="Correr de novo" id="reset">
+        
+        <div id="racetrack">
+            <img src="img/car1.png" alt="Green car" id="car1" class="car">
+            <img src="img/car2.png" alt="Red car" id="car2" class="car">
+        </div>
+        
+        <div id="raceInfoContainer" class="clearfix">
+            <h2>Results</h2>
+            <div id="raceInfo1" class="raceInfo">Carro 1<span></span></div>
+            <div id="raceInfo2" class="raceInfo">Carro 2<span></span></div>
+        </div>
+        
+       
+         <!-- CDN FIRST -->
+	<script
+	  src="https://code.jquery.com/jquery-3.2.1.min.js"
+	  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+	  crossorigin="anonymous"></script>
+
+	<!-- if CDN fails, server load the local version  \/ for end script tag -->
+	  <script>window.JQuery || document.write('<script type="text/javascript" src="js/jquery-3.2.1.min"><\/script>');</script>
+
+	  <!-- external JS file for put the code -->
+	  <script type="text/javascript" src="jsproject.js"></script>
+    </body>
+    
+</html>
