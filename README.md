@@ -1,9 +1,10 @@
 # CarRace
 ```
-Jogo de corrida,
-Resultados aleatórios...(JavaScript)
+Car race game,
+Random results(speed)
 ```
-# Melhore o jogo!
+# Improve the game
 ```
-Crie sua funcionalidade e dê pull request!!!
+Create a functionality
+pull request to the branch master.
 ```
